@@ -1,16 +1,17 @@
 import { Box } from "@mui/material"
 import {Link} from "@mui/material"
 
+
 export default function Header () {
     return (
        
         <Box sx={{ fontFamily:"cursive",
         display:"flex",
-        padding:"0 10px",
-        justifyContent:"space-between"            
-                         }}>
-                        
-            <h1>Sophie Brittain</h1>
+        margin:"20px",
+        justifyContent:"space-between",
+        fontSize:"40px"}}>
+          
+            Web3Werx
         <Box sx={{ display:"flex",
              fontFamily:"cursive",
              fontSize:"20px",
