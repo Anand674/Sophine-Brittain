@@ -10,8 +10,8 @@ export default function Header () {
         margin:"20px",
         justifyContent:"space-between",
         fontSize:"40px"}}>
-          
-            Web3Werx
+          Web3Werx
+    
         <Box sx={{ display:"flex",
              fontFamily:"cursive",
              fontSize:"20px",
@@ -20,7 +20,6 @@ export default function Header () {
              padding:"20px",  }}>
 
              <Link sx={{margin:"10px",fontSize:"20px"}} href="/"  >Home</Link>
-             <Link sx={{margin:"10px",fontSize:"20px"}} href="/"> Work </Link>
              <Link  sx={{margin:"10px",fontSize:"20px"}}href ="/about">About</Link>
        </Box>
       </Box>

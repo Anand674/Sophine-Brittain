@@ -5,6 +5,7 @@ import { Box } from "@mui/material";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import ProjectBox from "../Components/ProjectBox";
+
 export default function Home() {
   return (
     <Box>
@@ -27,7 +28,7 @@ export default function Home() {
               fontSize: "60px",
               paddind: "4px",
               alignItems: "center",
-              margin: "50px",
+              margin: "40px",
               fontFamily: "cursive",
               color: "red",
             }}
@@ -40,26 +41,38 @@ export default function Home() {
         </Box>
       </Container>
       <hr />
+      
+
 
       <ProjectBox
         title="NEWFY"
         description="A collection of 10,000 Dragon NFTs an the Ethereum blockchain"
         imgPath='/raffle.png'
+        testLink= "http://vevue.io/"
+        repoLink="https://github.com/Solid8/codeeer_nft.git"
+        videoLink="https://drive.google.com/file/d/1LweuuJYvrjRwTTWWrTkHTH-kC3ExYKyw/view?usp=sharing"
+      />
+ 
+      <ProjectBox
+        title="NFT'S"
+        description="As a you can buy the NFT's purchase codeeer nfts in this page."
+        imgPath='/codeeer.png'
+        testLink= "http://vevue.io/"
+        repoLink="https://github.com/Solid8/codeeer_nft.git"
+        videoLink="https://drive.google.com/file/d/1LweuuJYvrjRwTTWWrTkHTH-kC3ExYKyw/view?usp=sharing"
       />
 
-      <ProjectBox
-        title="NFTs"
-        description="As a you can buy the NFTs purchase codeeer nfts in this page."
-        imgPath='/codeeer.png'
-      />
   
       <ProjectBox
-        title="The Dons"
+        title="THE DONS"
         description=" A collcetion of 3,5000 Mafia Bosses coming to take over NEAR
         protocal. Blood Makes you related . Layout makes you family."
         imgPath='/thedon.jpg'
+        testLink= "http://vevue.io/"
+        repoLink="https://github.com/Solid8/codeeer_nft.git"
+        videoLink="https://drive.google.com/file/d/1LweuuJYvrjRwTTWWrTkHTH-kC3ExYKyw/view?usp=sharing"
       />
-
+  
       <Footer />
     </Box>
   );
